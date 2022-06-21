@@ -1,0 +1,16 @@
+def conflict_obj(str1,str2):
+    res=str1+str2
+    if(len(res)==6):  # if length is six letters then return res
+          return res
+ 
+ import code_wars as) test
+ from solution import conflict_obj
+ @test.describe("Fixed Tests")
+ def fixed_tests():
+     @test.it('Basic test cases')
+     def basic_test_cases()
+         test.assert_equals (conflict_obj(("al"),("bums")),("albums"))
+         test.assert_equals (conflict_obj(("here"),("by")),("hereby"))
+         test.assert_equals (conflict_obj(("bar"),("ely")),("barely"))
+         test.assert_equals (conflict_obj(("tail"),("or")),("tailor"))
+         test.assert_equals (conflict_obj(("cod"),("ers")),("coders"))   
