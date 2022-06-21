@@ -1,0 +1,19 @@
+def chop(n,arr):
+    for j in range(n,arr):
+        if(arr[j]==n):
+           return j
+        esle:
+           return -1
+       
+ #test cases
+ import code_wars as test
+ from solution import chop
+ @test.describe("Fixed Tests")
+ def fixed_tests():
+     @test.it('Basic test cases')
+     def basic_test_cases()
+         test.assert_equals (chop((3),[]),(-1))
+         test.assert_equals (chop((3),[1]),(-1))
+         test.assert_equals (chop((1),([1])),(0))
+         test.assert_equals (chop((5),([1,3,5,6)),(2))
+         test.assert_equals (chop((1),([1,3,5])),(0))   
