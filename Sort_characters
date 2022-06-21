@@ -1,13 +1,13 @@
 def sort_char(arr):
     return "".join(filter(lambda x:x.isalpha(),sorted(arr,key=lambda x:x.lower())))
-   import code_wars as test
- from solution import sort_char
- @test.describe("Fixed Tests")
- def fixed_tests():
+import code_wars as test
+from solution import sort_char
+@test.describe("Fixed Tests")
+def fixed_tests():
      @test.it('Basic test cases')
      def basic_test_cases()
          test.assert_equals (sort_char("hello wolrd"),('dehllloorw'))
          test.assert_equals (sort_char("apple watch"),('aacehpptw))
-         test.assert_equals (sort_char(("code fun")),('cdefnou'))
-         test.assert_equals (sort_char(("top ranker"),(aekoprrt))
-         test.assert_equals (sort_char(("code kata")),('aacdekot'))   
+         test.assert_equals (sort_char("code fun"),('cdefnou'))
+         test.assert_equals (sort_char("top ranker"),(aekoprrt))
+         test.assert_equals (sort_char("code kata"),('aacdekot'))   
