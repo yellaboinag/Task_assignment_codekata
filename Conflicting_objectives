@@ -3,7 +3,7 @@ def conflict_obj(str1,str2):
     if(len(res)==6):  # if length is six letters then return res
           return res
  
- import code_wars as) test
+ import code_wars as test
  from solution import conflict_obj
  @test.describe("Fixed Tests")
  def fixed_tests():
